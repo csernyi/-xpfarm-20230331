@@ -1,7 +1,7 @@
 const catMouseHard = require('./catMouseHard');
 
-describe('hello', () => {
-  it('should return hello', () => {
-    expect(catMouseHard()).toBe('hello');
+describe('cat-mouse game', () => {
+  it('is boring when a dog is missing', () => {
+    expect(catMouseHard('m.C', 1)).toBe('boring without all three');
   });
 });
