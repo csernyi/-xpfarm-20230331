@@ -1,6 +1,6 @@
 const catMouseHard = require('./catMouseHard');
 
-describe('cat-mouse game', () => {
+describe('cat-mouse game with not everyone presented', () => {
   it('is boring when a dog is missing', () => {
     expect(catMouseHard('m.C', 1)).toBe('boring without all three');
   });
