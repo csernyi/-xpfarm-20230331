@@ -7,4 +7,7 @@ describe('cat-mouse game', () => {
   it('is boring when a cat is missing', () => {
     expect(catMouseHard('m.D', 1)).toBe('boring without all three');
   });
+  it('is boring when a mouse is missing', () => {
+    expect(catMouseHard('D.C', 1)).toBe('boring without all three');
+  });
 });
