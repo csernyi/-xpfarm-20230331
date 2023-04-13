@@ -15,7 +15,7 @@ describe('cat-mouse game with the dog not in the way', () => {
   it('is boring when a dog is missing', () => {
     expect(catMouseHard('m.C.D', 1)).toBe('Caught!');
   });
-  it.skip('is boring when a cat is missing', () => {
+  it('is boring when a cat is missing', () => {
     expect(catMouseHard('m..C.D', 1)).toBe('Escaped!');
   });
   it.skip('is boring when a mouse is missing', () => {
