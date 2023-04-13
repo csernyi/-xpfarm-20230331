@@ -1,5 +1,5 @@
 function catMouseHard() {
-  return 'hello';
+  return 'boring without all three';
 }
 
 module.exports = catMouseHard;
