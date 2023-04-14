@@ -27,6 +27,6 @@
   - ✅ UAT 2.3
   - ✅ Refactor
 
-- ⚠ US 3
-  - ⚠ UAT 3.1
+- ✅ US 3
+  - ✅ UAT 3.1
 
