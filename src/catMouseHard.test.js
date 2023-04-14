@@ -12,13 +12,13 @@ describe('cat-mouse game with not everyone presented', () => {
   });
 });
 describe('cat-mouse game with the dog not in the way', () => {
-  it('is boring when a dog is missing', () => {
+  it('ends in the mouse being caught when cat jumps 1 and distance is 1', () => {
     expect(catMouseHard('m.C.D', 1)).toBe('Caught!');
   });
-  it('is boring when a cat is missing', () => {
+  it('ends in the mouse being escaped when cat jumps 1 and distance is 2', () => {
     expect(catMouseHard('m..C.D', 1)).toBe('Escaped!');
   });
-  it('is boring when a mouse is missing', () => {
+  it('ends in the mouse being caught when cat jumps 3 and distance is 3', () => {
     expect(catMouseHard('m...C.D', 3)).toBe('Caught!');
   });
 });
