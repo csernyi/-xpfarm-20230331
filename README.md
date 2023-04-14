@@ -28,4 +28,4 @@ npm test -- --watchAll --collect-coverage --verbose
   ✅ Scenario #3 Given a cat-dog-mouse position When the positions are 'm...C.D' and the cat can jump 3 Then the result is 'Caught!'
 
 ✅ US #3 As a cartoon watcher I want to see if a cat can catch the mouse when the dog is in the way so that I can entertain myself
-  ✅ Scenario #1 Given a cat-dog-mouse position When the positions are 'm..D.C' and the cat can jump 1 Then the result is 'Protected!'
+  ✅ Scenario #1 Given a cat-dog-mouse position When the positions are 'm..D.C' and the cat can jump 3 Then the result is 'Protected!'

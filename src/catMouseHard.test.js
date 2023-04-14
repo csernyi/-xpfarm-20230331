@@ -23,7 +23,7 @@ describe('cat-mouse game with the dog not in the way', () => {
   });
 });
 describe('cat-mouse game with the dog in the way', () => {
-  it('ends in the mouse being escaped when cat jumps 3 and distance of the dog 2', () => {
+  it('ends in the mouse being protected when cat jumps 3 and distance of the dog 1', () => {
     expect(catMouseHard('m..D.C', 3)).toBe('Protected!');
   });
 });
