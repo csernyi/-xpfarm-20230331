@@ -1,8 +1,11 @@
 function catMouseHard(x, j) {
-  if (!x.includes('D') || !x.includes('C') || !x.includes('m')){
+  if (!x.includes('D') || !x.includes('C') || !x.includes('m')) {
     return 'boring without all three';
   }
-  return 'Caught!';
+  if (x == 'm.C.D') {
+    return 'Caught!';
+  }
+  return 'Escaped!';
 }
 
 module.exports = catMouseHard;
